@@ -1,5 +1,6 @@
 import { useState } from "react";
-
+import ComponentA from "./ComponentA.jsx";
+import ComponentB from "./ComponentB.jsx";
 
 function App() {
   const [status, setStatus] = useState(false);
@@ -18,3 +19,4 @@ function App() {
 }
 
 export default App;
+
