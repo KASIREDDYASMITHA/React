@@ -1,0 +1,15 @@
+.navbar {
+  background: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.nav-link {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+.nav-link.active {
+  font-weight: bold;
+  border-bottom: 2px solid yellow;
+}
